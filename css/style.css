@@ -1,0 +1,43 @@
+body{
+    font-family: 'Times New Roman';
+    margin: 0;
+}
+#header{
+    border-bottom: 1px solid black;
+     
+    
+}
+#header *{
+    display: inline-block;
+}
+#header h1{
+    margin-left: 1px;
+    margin-right: 2px;
+    font-size: 18px;
+   float: center;
+}
+#header img{
+    width: 70px;
+}
+#header ul{
+    float: right;
+    margin-top: 20px;
+    margin-right:50px;
+}
+#header ul li{
+    width: 50px;
+    text-align: center;
+}
+#banner {
+    text-align: center;
+    background-image: url(../img/banner.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+
+}
+#banner p {
+ padding-top: 240px;
+}
+
